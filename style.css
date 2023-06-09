@@ -1,0 +1,57 @@
+
+/* stylisation du header et de la barre nav */
+header{
+    text-align: center;
+    background-color: black;
+    background-image: url(images/header-fond.jfif);
+    height: 130px;;
+
+}
+nav{
+    text-align: center;
+    height: 30px;
+    padding-top: 18px;
+    padding-bottom: 14px;
+    background-color:rgba(178, 175, 175, 0.731);
+}
+nav a{
+    text-decoration: none;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 20px;
+    color: beige;
+}
+li{
+    display: inline;
+}
+/* partie body */
+body{
+    background-color: black;
+    font-family: Roboto,Arial,sans-serif;
+    margin: 10%;
+}
+
+p{
+    color: white;
+
+}
+h3{
+    text-align: center;
+    color: white;
+}
+form{
+
+}
+.box2 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* footer */
+footer{
+    color: antiquewhite;
+}
+.box4 label{
+    color: whitesmoke;
+}
+

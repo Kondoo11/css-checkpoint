@@ -4,12 +4,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>checkpoint gomycode</title>
 </head>
 <body>
+  <div class="container">
   <header>
     <!--logo du site-->
-   <img src="images/logo_festival_burger.png" alt="logo burger festival">
+    <!-- appuyer sur le logo refresh la page-->
+  <a href="#"><img src="images/logo_festival_burger.png" alt="logo burger festival" width="130px" height="130px"></a>
   </header>
   <nav>
    <li>
@@ -24,12 +27,13 @@
    <li>
     <a href="#CV">CV</a>
    </li>
-   <LI>
+   <li>
     <a href="#Contact">Contact</a>
-   </LI>
+  </li>
 
   </nav>
-  <section>
+  <main>
+  <section class="box1">
     <a name="Apropos"></a>
   <h3>A propos</h3>
   <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos impedit, asperiores repellat, et cum blanditiis iusto dolore, corporis facere sit est consequuntur voluptates saepe tempora necessitatibus maxime magnam autem veritatis?
@@ -40,10 +44,10 @@
     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere fuga, ipsum tempora magni corrupti incidunt dolores sapiente suscipit quis inventore consequatur perferendis laboriosam nobis laudantium et, ipsam cum! Explicabo, impedit.  
    <br>
    <!--une video en rapport avec le theme du site--> 
-    <iframe width="500" height="300" src="https://www.youtube.com/embed/bDA1U0P4OP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="1000" height="300" src="https://www.youtube.com/embed/bDA1U0P4OP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen  ></iframe>
   </p>
   </section>
-  <section>
+  <section class="box2">
     <a name="Travail"></a>
 <h3>Travail</h3>
 <p>
@@ -53,9 +57,12 @@
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, iste sit quibusdam nisi laudantium corrupti nesciunt consequuntur voluptates fugit ut voluptatum suscipit, exercitationem adipisci vitae assumenda, repudiandae cumque quas! Repudiandae.
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nemo cumque culpa iure, sed distinctio quas. Voluptas reprehenderit libero, laborum explicabo quae eius alias, id, blanditiis asperiores dignissimos repudiandae ratione.
   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere fuga, ipsum tempora magni corrupti incidunt dolores sapiente suscipit quis inventore consequatur perferendis laboriosam nobis laudantium et, ipsam cum! Explicabo, impedit.
+  <br>
+  <div><img src="images/eater.jpg" alt="vu sur la place" width="800px" height="300px"></div>
+
 </p>
   </section>
-  <section>
+  <section class="box3">
     <a name="CV"></a>
   <h3>CV</h3>
   <p>
@@ -68,32 +75,33 @@
  </p>
   </section>
   <!--dans cette section on utilise les html forms-->
-  <section>
+  <section class="box4">
     <a name="Contact"></a>
     <h3>Contact</h3>
     <form>
-      <label>Prenoms</label>
+      <label>Prenoms  </label>
       <input type="text" name="Prenoms">
       <br>
-      <label>Nom</label>
+      <label>Nom   </label>
       <input type="text" name="Nom">
       <br>
       <label>telephone</label>
       <input type="text" name="telephone">
       <br>
-      <label>Email</label>
+      <label>Email   </label>
       <input type="text" name="Email" placeholder="exemple@gmail.com">
       <br>
-      <textarea name="commentaires" id="" cols="30" rows="8"> ecrire votre commentaire</textarea>
+      <textarea name="commentaires" id="" cols="60" rows="8"> ecrire votre commentaire</textarea>
       <br>
     </form>
 
   </section>
+  </main>
   <footer>
     <!--ceci est le pieds de page-->
-    copyright © made by abdoulayekondo adresse:cité alioune sow immeuble caddy I app A103
+    <marquee>copyright © made by abdoulayekondo adresse:cité alioune sow immeuble caddy I app A103</marquee>
   </footer>
-
+  </div>
 
 </body>
 </html>
